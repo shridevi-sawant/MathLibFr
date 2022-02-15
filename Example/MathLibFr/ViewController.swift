@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import MathLibFr
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let res = MathUtility().add(a: 10, b: 20)
     }
 
     override func didReceiveMemoryWarning() {
