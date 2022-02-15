@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   
   s.swift_versions = '5.0'
 
-  s.source_files = 'MathLibFr/Classes/**/*'
+  s.source_files = 'MathLibFr/**/*'
   
   # s.resource_bundles = {
   #   'MathLibFr' => ['MathLibFr/Assets/*.png']
